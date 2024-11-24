@@ -28,7 +28,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header className="bg-slate-900 text-white p-4 text-center">
+          <h1>Welcome to Next.js tutorial!</h1>
+        </header>
         {children}
+        <footer className="bg-slate-900 text-white p-4 text-center">
+          <h1>Footer</h1>
+        </footer>
       </body>
     </html>
   );
